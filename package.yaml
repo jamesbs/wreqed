@@ -25,6 +25,8 @@ dependencies:
 - aeson
 - lens
 - lens-aeson
+- mtl
+- transformers
 
 library:
   source-dirs: src
@@ -43,6 +45,8 @@ executables:
     - aeson
     - lens
     - lens-aeson
+    - mtl
+    - transformers
 
 tests:
   wreqed-test:

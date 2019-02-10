@@ -7,7 +7,6 @@ module OrderTypes (
 import Network.Wreq
 import Control.Lens
 import Data.Aeson
-import Data.Aeson.Lens
 
 url = "http://localhost:3000/orderTypes"
 
