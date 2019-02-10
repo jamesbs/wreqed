@@ -27,6 +27,7 @@ dependencies:
 - lens-aeson
 - mtl
 - transformers
+- bytestring
 
 library:
   source-dirs: src
@@ -47,6 +48,7 @@ executables:
     - lens-aeson
     - mtl
     - transformers
+    - bytestring
 
 tests:
   wreqed-test:
