@@ -26,7 +26,7 @@ getOrderTypes = do
   liftIO $ fmap (preview responseBody) (get $ (getEndpoint env) ++ "/orderTypes")
 
 -- example post body
--- [ "id" := ("LIMIT_EXPLOSION" :: String) ]
+-- [ "id" := ("LIMIT_ORDER" :: String) ]
 postOrderTypes :: (MonadReader env m, HasEndpoint env, MonadIO m) => [FormParam] -> m (Response ByteString)
 postOrderTypes body = do
   env <- ask
